@@ -1,6 +1,6 @@
 # AI Mood Analyer
 
-A comprehensive machine learning project that analyzes human emotions and sentiment from audio speech recordings. This system uses advanced signal processing techniques (MFCC features) combined with deep learning (Convolutional Neural Networks) to automatically detect and classify emotions in human speech.
+An audio based emotion and sentiment classification from audio speech using MFCC features and Convolutional Neural Networks (CNN). This system uses advanced signal processing techniques (MFCC features) combined with a CNN architecture to automatically detect and classify emotions in human speech.
 
 ## What This Project Does
 
