@@ -102,25 +102,6 @@ python predict.py --audio_path /path/to/audio.wav
 - `--n_mfcc`: Number of MFCC coefficients (default: 30)
 - `--visualize`: Show audio visualization (flag)
 
-### Example Usage
-
-```bash
-# Train the model
-python train.py --data_path data/ravdess/audio_speech_actors_01-24/ --epochs 100
-
-# Predict emotion from audio
-python predict.py --audio_path data/test_audio.wav
-```
-
-## Model Architecture
-
-The model uses a 2D CNN architecture specifically designed for MFCC features:
-
-- **Input**: 30 MFCC coefficients × 216 time frames × 1 channel
-- **Convolutional Layers**: 4 Conv2D blocks with BatchNormalization, ReLU activation, MaxPooling, and Dropout
-- **Dense Layers**: Fully connected layers with dropout for regularization
-- **Output**: 16 classes (8 emotions × 2 genders)
-
 ## Dataset
 
 This project uses the RAVDESS dataset which contains:
