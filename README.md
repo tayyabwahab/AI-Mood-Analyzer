@@ -19,16 +19,6 @@ This project can:
 - **Entertainment**: Create emotion-aware applications and games
 - **Research**: Study human emotional expression and communication
 
-## Technical Overview
-
-The system processes audio files by:
-1. **Extracting MFCC features** - converting raw audio into numerical representations that capture speech characteristics
-2. **Training a CNN model** - using deep learning to learn patterns in the audio features
-3. **Classifying emotions** - predicting 8 different emotions across 2 gender categories
-4. **Providing insights** - generating detailed analysis reports and visualizations
-
-This project is built using the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset, which contains high-quality emotional speech recordings from professional actors.
-
 ## Project Structure
 
 ```

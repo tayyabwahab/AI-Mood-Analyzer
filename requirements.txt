@@ -13,9 +13,5 @@ seaborn>=0.11.0
 tqdm>=4.60.0
 joblib>=1.1.0
 
-# Jupyter (optional, for notebook support)
-jupyter>=1.0.0
-ipython>=7.0.0
-
 # Audio playback (for Jupyter)
 IPython>=7.0.0
